@@ -1,0 +1,60 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Register-Enrique
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Economica&family=Montserrat+Alternates:wght@100&family=PT+Mono&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Economica&family=Montserrat+Alternates:wght@100&family=PT+Mono&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Economica&family=Montserrat+Alternates:wght@100&family=PT+Mono&family=PT+Sans&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Economica&family=Montserrat+Alternates:wght@100&family=Open+Sans+Condensed:wght@300&family=PT+Mono&family=PT+Sans&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Economica&family=M+PLUS+1+Code:wght@100&family=Montserrat+Alternates:wght@100&family=Open+Sans+Condensed:wght@300&family=Outfit:wght@100;200&family=PT+Mono&family=PT+Sans&family=Shippori+Antique&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='/static/register.css')
+  script(src='https://kit.fontawesome.com/3f696ec4c4.js' crossorigin='anonymous')
+  //- script(src="/static/register.js") 
+  link(rel="shortcut icon", href="/static/img/fav.jpg", type="image/x-icon")
+.container
+  .top
+    .icons
+      a(href='https://www.instagram.com/enriqueiglesias/')
+        img#im1(src='/static/img/insta2.png' alt='')
+      a(href='https://www.facebook.com/Enrique')
+        img#im2(src='/static/img/fb.png' alt='')
+      a(href='https://open.spotify.com/artist/7qG3b048QCHVRO5Pv1T5lw?si=8qklDBAsQcC9Q_jlnOvG7A&nd=1')
+        img#im3(src='/static/img/sp2.png' alt='')
+      a(href='https://music.apple.com/us/artist/enrique-iglesias/90895')
+        img#im4(src='/static/img/app2.png' alt='')
+      a(href='https://twitter.com/enriqueiglesias')
+        img#im5(src='/static/img/tw.png' alt='')
+      a(href='https://www.youtube.com/user/EnriqueIglesiasPlay')
+        img#im6(src='/static/img/yt2.png' alt='')
+    .h
+      h1 ei
+    .index
+      a#s1(href='/')
+        span
+          | Home
+      a#s2(href='/tour')
+        span
+          | Tour
+      a#s3(href='/discography')
+        span
+          | Discography
+      a#s4(href='/register')
+        span
+          | Register
+  .fm
+    img#im(src='/static/img/profile.png' alt='')
+    form.form(action='/register' method='post' onsubmit="alert('Thanks for Registering')")
+      input#i1(type='text' name='name' placeholder='Name' required)
+      input#i2(type='email' name='email' placeholder='Email' required)
+      input#i3(type='submit' name='submit' value='Register')

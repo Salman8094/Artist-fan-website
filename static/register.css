@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.container::before {
+    content: "";
+    background: url('/static/img/newen6.jpg') center/cover no-repeat;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* filter: ; */
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.h {
+    color: white;
+    padding-top: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 29px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 870px;
+    animation: ani2 1s linear;
+    text-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+@keyframes ani2 {
+    0% {
+        text-shadow: 0 0 50px #fff;
+        letter-spacing: 80px;
+        opacity: 0;
+        -webkit-transform: rotateY(-90deg);
+    }
+    50% {
+        text-shadow: 0 0 1px #fff;
+        letter-spacing: 14px;
+        opacity: 0.8;
+        -webkit-transform: rotateY(0deg);
+    }
+    85% {
+        text-shadow: 0 0 1px #fff;
+        opacity: 0.8;
+        -webkit-transform: rotateY(0deg) translateZ(100px);
+    }
+    100% {
+        text-shadow: 0 0 10px #fff;
+        opacity: 0;
+        -webkit-transform: translateZ(130px);
+        pointer-events: none;
+    }
+}
+
+#im1 {
+    position: relative;
+    top: 87px;
+    left: 778px;
+    height: 15px;
+}
+
+#im1:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+#im2 {
+    position: relative;
+    top: 90px;
+    left: 711px;
+    height: 20px;
+}
+
+#im2:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+#im3 {
+    position: relative;
+    top: 91px;
+    left: 641px;
+    height: 20px;
+}
+
+#im3:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+#im4 {
+    position: relative;
+    top: 88px;
+    left: 932px;
+    height: 18px;
+}
+
+#im4:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+#im5 {
+    position: relative;
+    top: 91px;
+    left: 953px;
+    height: 21px;
+}
+
+#im5:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+#im6 {
+    position: relative;
+    top: 87px;
+    left: 975px;
+    height: 15px;
+}
+
+#im6:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 21px rgb(255, 255, 255), 0 0 42px #ffffff;
+}
+
+.index {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: center/cover no-repeat url('/static/img/14.jpg');
+    background-position-y: -186px;
+    border-radius: 30px;
+    opacity: 0.7;
+    z-index: -5;
+    width: 47%;
+    margin-left: 473px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+}
+
+#s1 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: -229px;
+    opacity: 1;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+}
+
+#s2 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: -83px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+}
+
+#s3 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: 108px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+}
+
+#s4 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: 223px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+}
+
+.top {
+    position: relative;
+    left: 26px;
+}
+
+.fm {
+    position: relative;
+    height: 504px;
+    width: 517px;
+    top: 100px;
+    left: 665px;
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+}
+
+#im {
+    width: 50px;
+    position: relative;
+    left: 231px;
+    top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#i1 {
+    margin-top: 81px;
+    height: 50px;
+    padding-left: 14px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 425px;
+    margin-left: 32px;
+    outline: none;
+    color: white;
+    font-size: 19px;
+}
+
+#i1::placeholder {
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 0.7;
+    outline: none;
+}
+
+#i2 {
+    margin-top: 67px;
+    height: 50px;
+    padding-left: 14px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 425px;
+    margin-left: 32px;
+    outline: none;
+    color: white;
+    font-size: 19px;
+}
+
+#i2::placeholder {
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 0.7;
+    outline: none;
+}
+
+#i3 {
+    margin-top: 80px;
+    height: 33px;
+    width: 94px;
+    position: relative;
+    left: 211px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+#i3:hover {
+    background-color: white;
+    color: black;
+}
